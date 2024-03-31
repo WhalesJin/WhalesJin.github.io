@@ -59,15 +59,9 @@ content:
     content:
       - layout: top-middle
         title: 업앤비드릴
-        # link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title: 업앤비드릴
-            icon: fab fa-github
-            url: https://apps.apple.com/kr/app/%EC%97%85%EC%95%A4%EB%B9%84%EB%93%9C%EB%A6%B4/id6473714963
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        link: https://apps.apple.com/kr/app/%EC%97%85%EC%95%A4%EB%B9%84%EB%93%9C%EB%A6%B4/id6473714963
+        link_text: AppStore
+        caption: 2023.05 - 2023.12
         quote: >
           짧은 숏폼의 스포츠 스킬 영상을 보고, 가능 불가능 여부를 선택하여 현재 자신의 스포츠 레벨을 체크해보는 교육용 앱
         description: | # this will include new lines to allow paragraphs
@@ -93,7 +87,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: RxPageViewController
         additional_links:
           - title: RxPageViewController
@@ -120,7 +114,7 @@ content:
             - 이러한 문제를 해결하기 위해 RxSwift에서 제공하는 DelegateProxy를 활용하여 UIPageViewController의 Delegate와 DataSource의 기능을 RxSwift환경에서도 사용할 수 있도록 도와주는 오픈소스 라이브러리를 개발했습니다.
             - 또한, 페이징 기능과 같이 일반적으로 많이 사용하는 로직을 캡슐화해 제공하여 UIPageViewController를 좀 더 직관적이고 간편하게 사용하는 기능도 제공합니다.
             
-      - layout: left
+      - layout: top-middle
         title: GyroData
         additional_links:
           - title: GyroData
@@ -150,10 +144,10 @@ content:
         caption: 2023.03 - 2023.06
         sub_title: 서포터즈 인턴
         description: | # this will include new lines to allow paragraphs
-            - Swift 언어를 처음 배우는 코드 스타터 캠퍼를 대상으로 코드 리뷰
-            - iOS 앱 개발을 배우는 커리어 스타터 캠퍼를 대상으로 코드 리뷰와 멘토링, 스터디 참관
-            - 멘토링을 통해 공부에 어려움을 겪는 캠퍼를 독려하여 캠프과정을 무사히 수료할 수 있도록 도움을 줌
-            - 서포터즈 활동을 통해 모든 의견 제시와 질문은 그 배경과 근거가 있어야 상대방에게 설득력 있게 다가온다는 점을 배움
+            - iOS를 통한 앱 개발을 배우는 커리어 스타터 캠퍼를 대상으로 코드 리뷰와 멘토링, 스터디 참관을 진행하였습니다.
+            - 이러한 일을 수행하기 위해서는 제가 알고 있는 내용이 정말 확실한 내용인지 한번 더 검증하는 일이 반드시 필요했고, 알고 있는 내용을 상대방에게 정확하고 이해하기 쉽게 전달해야만 했습니다.
+            - 때문에 저는 이미 알고 있는 내용이라도 한번 더 공식문서를 통해 검증한 후 설명하였고, 근거나 이유 역시 공식문서를 기반으로 제시하였습니다. 또 코드 리뷰를 할 때, “잘못되었다”, ”틀렸다” 와 같은 말보다는 그렇게 작성한 이유와 근거를 물어보고 그 근거의 타당성과 현재 상황과 잘 맞아 떨어지는지 같이 고민하고, 내 의견을 전달하는 방식으로 리뷰를 진행하였습니다.
+            - 그 결과, 저는 **모든 의견 제시와 질문은 그 배경과 근거가 있어야 상대방에게 설득력 있게 다가온다는 점**을 깨달았습니다. 이러한 깨달음을 통해 **상대방과 커뮤니케이션을 하거나 질문을 할 때, 내 의견과 질문의 근거와 배경, 이유를 확실하게 준비하고 전달해야 한다는 것**을 배웠습니다.
 
   - title: Other
     layout: text
