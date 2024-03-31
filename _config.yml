@@ -48,11 +48,12 @@ github_username:  wonbi92
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator.
-  As well as administrating systems I also have experience making **software** and web apps.
-  I have worked at a number of companies gaining teamwork and leadership skills.
+  스스로 코드 작성에 대해 이유를 찾는 과정을 중요하게 생각합니다.<br>
+  팀의 성장 지향 문화에 임팩트를 내는 것을 지향합니다.<br>
+  지식은 공유하며 함께 성장하는 삶을 지향합니다.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  **Skills**\n
+  <mark>Swift</mark> <mark>UIKit</mark> <mark>RxSwift</mark> <mark>Swift</mark>
 
 content:
   - title: Experience # Title for the section
