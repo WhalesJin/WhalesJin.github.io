@@ -48,8 +48,10 @@ github_username:  wonbi92
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  스스로 코드 작성에 대해 이유를 찾는 과정을 중요하게 생각합니다.<br>
-  팀의 성장 지향 문화에 임팩트를 내는 것을 지향합니다.<br>
+  스스로 코드 작성에 대해 이유를 찾는 과정을 중요하게 생각합니다.
+  
+  팀의 성장 지향 문화에 임팩트를 내는 것을 지향합니다.
+  
   지식은 공유하며 함께 성장하는 삶을 지향합니다.
 content:
   - title: Experience # Title for the section
@@ -76,12 +78,12 @@ content:
             - 뷰컨트롤러의 복잡한 화면전환 로직을 Coordinator패턴을 적용하여 화면전환 로직 분리
             - 기존에 RxSwift환경에서 사용할 수 없던 기능을 RxSwift환경에서도 사용할 수 있도록 로직 구현
             - 기존 앱의 불편한 UI/UX 디자인을 HIG를 근거로 제시하여 앱의 UI/UX 개선
-        
+            <br><br>
             **Spec Sheet**<br>
-            <mark>Swift</mark> | <mark>UIKit</mark> | <mark>AVFoundation</mark> | <mark>RxSwift</mark>
-            
+            <mark>Swift</mark> <mark>UIKit</mark> <mark>AVFoundation</mark> <mark>RxSwift</mark>
+            <br><br>
             **Retrospect**<br>
-            - 시작 단계의 앱인 만큼 앱의 기능이 변경되거나 추가, 삭제되는 일이 많았습니다. 때문에 앱의 구조가 한번에 파악이 가능하고, 기능의 추가 및 수정이 용이하도록 MVVM에 클린 아키텍쳐의 레이어 계층 구조를 적용하여 추상화 레이어 계층을 확실하게 분리해야 한다 판단하였습니다. **비즈니스 모델들을 모듈단위로 추상화 하여 유즈케이스를 만들고, 뷰 모델과 유즈케이스를 구분하여 구성하였습니다.** 결과적으로 앱 전체적으로 구조 파악이 쉽고 가독성이 올랐으며, 인수인계 때에도 문서에 해당 내용을 그림과 글로 깔끔하게 정리할 수 있었습니다.
+            - 시작 단계의 앱인 만큼 앱의 기능이 변경되거나 추가, 삭제되는 일이 많았습니다. 때문에 앱의 구조가 한번에 파악이 가능하고, 기능의 추가 및 수정이 용이하도록 MVVM에 클린 아키텍쳐의 레이어 계층 구조를 적용하여 추상화 레이어 계층을 확실하게 분리해야 한다 판단하였습니다. **비즈니스 모델들을 모듈단위로 추상화 하여 유즈케이스를 만들고, 뷰 모델과 유즈케이스를 구분하여 구성하였습니다.** 결과적으로 앱 전체적으로 구조 파악이 쉽고 가독성이 올랐으며, 인수인계 때에도 문서에 [해당 내용을 그림과 글로 깔끔하게 정리할 수 있었습니다.](https://velog.io/@wonbi92/iOS-MVVM%EA%B3%BC-%ED%81%B4%EB%A6%B0-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90)
             - 이미 개발이 완료된 부분이라도 구조적인 측면에서의 리팩토링이 필요하다 판단되면 리팩토링을 진행하였습니다. **기존 아키텍쳐의 화면전환 로직에 Coordinator패턴을 추가 적용하여 각각의 계층 내에서 각자의 할 일을 명확하게 가져가도록 리팩토링 하였습니다.** 그 결과, 코드의 가독성이 오르고, 데이터의 흐름도 좀 더 유연하게 관리할 수 있도록 개선 되었습니다.
             - 앱 내부적으로 UIPageViewController를 사용하였는데, RxSwift는 UIPageViewController를 지원하지 않았습니다. 이에 **RxSwift에서 제공하는 DelegateProxy를 활용해 Delegate와 DataSource를 Rx환경에 맞게 사용하도록 리팩토링 하였습니다.** 나아가 해당 기능을 좀 더 일반화하고 모듈화하여 오픈소스 라이브러리로 만들어 배포하였습니다.
             - UI/UX에 대한 고민을 많이 했습니다. 애플의 H.I.G에 대한 경험이 부족하신 디자이너분과의 협업을 진행하면서 H.I.G와 맞지 않는 부분들을 애플 생태계에 맞게 개선하기 위해 **H.I.G 공식문서를 근거로 디자인에 대한 가이드라인을 전달드렸고, 이를 통해 애플 생태계에 맞는 디자인으로 개선**되고 사용자의 UX를 일관되게 가져가도록 하였습니다.
@@ -104,10 +106,10 @@ content:
             - 오픈소스 라이브러리 제작 및 배포
             - RxSwift의 DelegateProxy를 활용하여 UIPageViewController의 로직을 Rx의 환경에서 사용 가능하도록 개발
             - 라이브러리 사용자의 개발 편의를 위한 기본 페이징 기능을 캡슐화하여 제공
-        
+            <br><br>
             **Spec Sheet**<br>
             <mark>Swift</mark> <mark>RxSwift</mark> <mark>CocoaPods</mark> <mark>SPM</mark>
-            
+            <br><br>
             **Retrospect**<br>
             - RxSwift는 Swift를 비동기 및 이벤트 기반으로 프로그래밍하게 해주는 라이브러리입니다. 이를 통해 비동기 실행 코드의 가독성을 높혀주고 명확한 추론이 가능하도록 도와줍니다.
             - 하지만 Swift에서 제공하는 모든 기능을 Rx환경으로 제공하진 않습니다. Swift의 UIPageViewController도 같은 문제를 가지고 있었습니다. 때문에 UIPageViewController를 사용할 때 비동기 코드의 가독성이 떨어지고 명확한 추론이 어려운 문제가 있습니다.
@@ -115,43 +117,37 @@ content:
             - 또한, 페이징 기능과 같이 일반적으로 많이 사용하는 로직을 캡슐화해 제공하여 UIPageViewController를 좀 더 직관적이고 간편하게 사용하는 기능도 제공합니다.
             
       - layout: left
-        title: RxPageViewController
+        title: GyroData
         additional_links:
-          - title: RxPageViewController
+          - title: GyroData
             icon: fab fa-github
-            url: https://github.com/wonbi92/RxPageViewController
-        sub_title: 오픈소스 라이브러리
-        caption: 2023.12 - 2024.01
+            url: https://github.com/wonbi92/ios-wanted-GyroData
+        sub_title: 개인 프로젝트
+        caption: 2023.01 - 2023.02
         quote: >
-          UIPageViewController의 Delegate와 DataSource의 기능을 RxSwift환경에서도 사용할 수 있도록 도와주는 오픈소스 라이브러리
+          6축 데이터(acc 3축 + gyro 3축)를 측정하여 그래프로 그리고 해당 데이터를 저장하고 재생해볼 수 있는 측정 앱
         description: | # this will include new lines to allow paragraphs
             **What i did**<br>
-            - 오픈소스 라이브러리 제작 및 배포
-            - RxSwift의 DelegateProxy를 활용하여 UIPageViewController의 로직을 Rx의 환경에서 사용 가능하도록 개발
-            - 라이브러리 사용자의 개발 편의를 위한 기본 페이징 기능을 캡슐화하여 제공
-        
+            - 모션의 데이터를 생성하고 전달하는 객체구현
+            <br><br>
             **Spec Sheet**<br>
-            <mark>Swift</mark> <mark>RxSwift</mark> <mark>CocoaPods</mark> <mark>SPM</mark>
-            
+            <mark>Swift</mark> <mark>UIKit</mark> <mark>MVVM</mark>
+            <br><br>
             **Retrospect**<br>
-            - RxSwift는 Swift를 비동기 및 이벤트 기반으로 프로그래밍하게 해주는 라이브러리입니다. 이를 통해 비동기 실행 코드의 가독성을 높혀주고 명확한 추론이 가능하도록 도와줍니다.
-            - 하지만 Swift에서 제공하는 모든 기능을 Rx환경으로 제공하진 않습니다. Swift의 UIPageViewController도 같은 문제를 가지고 있었습니다. 때문에 UIPageViewController를 사용할 때 비동기 코드의 가독성이 떨어지고 명확한 추론이 어려운 문제가 있습니다.
-            - 이러한 문제를 해결하기 위해 RxSwift에서 제공하는 DelegateProxy를 활용하여 UIPageViewController의 Delegate와 DataSource의 기능을 RxSwift환경에서도 사용할 수 있도록 도와주는 오픈소스 라이브러리를 개발했습니다.
-            - 또한, 페이징 기능과 같이 일반적으로 많이 사용하는 로직을 캡슐화해 제공하여 UIPageViewController를 좀 더 직관적이고 간편하게 사용하는 기능도 제공합니다.
+            - 이 프로젝트는 처음 기획단계에서부터 하나의 객체에 역할을 명확하게 하고, 각 객체의 레이어를 적절하게 배치하여 모든 객체들이 깨끗하게(Clean하게) 각자의 할일을 하도록 로직분리와 구조설계를 하고자 하였습니다. 그 결과, 앱 개발 이전에 먼저 [클래스 다이어그램](https://miro.com/app/board/uXjVPsjIXrY=/)을 그리며 각 레이어의 계층에 대한 고민을 먼저 하게되었고, 각 계층에 대한 역할에 대한 고민을 하게 되었습니다.
             
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: 야곰 아카데미 서포터즈
+        caption: 2023.03 - 2023.06
+        sub_title: 서포터즈 인턴
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+            - Swift 언어를 처음 배우는 코드 스타터 캠퍼를 대상으로 코드 리뷰
+            - iOS 앱 개발을 배우는 커리어 스타터 캠퍼를 대상으로 코드 리뷰와 멘토링, 스터디 참관
+            - 멘토링을 통해 공부에 어려움을 겪는 캠퍼를 독려하여 캠프과정을 무사히 수료할 수 있도록 도움을 줌
+            - 서포터즈 활동을 통해 모든 의견 제시와 질문은 그 배경과 근거가 있어야 상대방에게 설득력 있게 다가온다는 점을 배움
 
   - title: A Little More About Me
     layout: text
