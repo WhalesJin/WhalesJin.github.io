@@ -52,9 +52,6 @@ about_content: | # this will include new lines to allow paragraphs
   팀의 성장 지향 문화에 임팩트를 내는 것을 지향합니다.<br>
   지식은 공유하며 함께 성장하는 삶을 지향합니다.
 
-  **Skills**\n
-  <mark>Swift</mark> <mark>UIKit</mark> <mark>RxSwift</mark> <mark>Swift</mark>
-
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -65,7 +62,6 @@ content:
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
             url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
