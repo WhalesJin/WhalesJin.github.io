@@ -51,25 +51,41 @@ about_content: | # this will include new lines to allow paragraphs
   스스로 코드 작성에 대해 이유를 찾는 과정을 중요하게 생각합니다.<br>
   팀의 성장 지향 문화에 임팩트를 내는 것을 지향합니다.<br>
   지식은 공유하며 함께 성장하는 삶을 지향합니다.
-
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
+        title: 업앤비드릴
         # link: github.com/sproogen
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
-            url: github.com/sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: https://apps.apple.com/kr/app/%EC%97%85%EC%95%A4%EB%B9%84%EB%93%9C%EB%A6%B4/id6473714963
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          짧은 숏폼의 스포츠 스킬 영상을 보고, 가능 불가능 여부를 선택하여 현재 자신의 스포츠 레벨을 체크해보는 교육용 앱
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+            **What i did**<br>
+            - 개발 초기의 그라운드 룰 및 앱의 구성, 기술 스택, 등을 제시하여 앱 개발 프로세스를 만들어 냄
+            - "Tinder" 스타일의 동영상 카드 컬랙션을 상하좌우 스와이핑을 통해 분류하는 UI 구현
+            - HLS 형식만 지원하던 동영상 플레이어를 유튜브와 같은 외부 리소스 영상도 지원하도록 기능 및 로직 확장
+            - 뷰컨트롤러의 복잡한 화면전환 로직을 Coordinator패턴을 적용하여 화면전환 로직 분리
+            - 기존에 RxSwift환경에서 사용할 수 없던 기능을 RxSwift환경에서도 사용할 수 있도록 로직 구현
+            - 기존 앱의 불편한 UI/UX 디자인을 HIG를 근거로 제시하여 앱의 UI/UX 개선
+        
+            **Spec Sheet**<br>
+            <mark>Swift</mark> | <mark>UIKit</mark> | <mark>AVFoundation</mark> | <mark>RxSwift</mark>
+            
+        
+                **Retrospect**<br>
+            - 시작 단계의 앱인 만큼 앱의 기능이 변경되거나 추가, 삭제되는 일이 많았습니다. 때문에 앱의 구조가 한번에 파악이 가능하고, 기능의 추가 및 수정이 용이하도록 MVVM에 클린 아키텍쳐의 레이어 계층 구조를 적용하여 추상화 레이어 계층을 확실하게 분리해야 한다 판단하였습니다. **비즈니스 모델들을 모듈단위로 추상화 하여 유즈케이스를 만들고, 뷰 모델과 유즈케이스를 구분하여 구성하였습니다.** 결과적으로 앱 전체적으로 구조 파악이 쉽고 가독성이 올랐으며, 인수인계 때에도 문서에 해당 내용을 그림과 글로 깔끔하게 정리할 수 있었습니다.
+            - 이미 개발이 완료된 부분이라도 구조적인 측면에서의 리팩토링이 필요하다 판단되면 리팩토링을 진행하였습니다. **기존 아키텍쳐의 화면전환 로직에 Coordinator패턴을 추가 적용하여 각각의 계층 내에서 각자의 할 일을 명확하게 가져가도록 리팩토링 하였습니다.** 그 결과, 코드의 가독성이 오르고, 데이터의 흐름도 좀 더 유연하게 관리할 수 있도록 개선 되었습니다.
+            - 앱 내부적으로 UIPageViewController를 사용하였는데, RxSwift는 UIPageViewController를 지원하지 않았습니다. 이에 **RxSwift에서 제공하는 DelegateProxy를 활용해 Delegate와 DataSource를 Rx환경에 맞게 사용하도록 리팩토링 하였습니다.** 나아가 해당 기능을 좀 더 일반화하고 모듈화하여 오픈소스 라이브러리로 만들어 배포하였습니다.
+            - UI/UX에 대한 고민을 많이 했습니다. 애플의 H.I.G에 대한 경험이 부족하신 디자이너분과의 협업을 진행하면서 H.I.G와 맞지 않는 부분들을 애플 생태계에 맞게 개선하기위해 H.I.G 공식문서를 근거로 디자인에 대한 가이드라인을 전달드렸고, 이를 통해 애플 생태계에 맞는 디자인으로 개선되고 사용자의 UX를 일관되게 가져가도록 하였습니다.
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
