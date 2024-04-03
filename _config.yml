@@ -60,7 +60,7 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: 업앤비드릴
         link: https://apps.apple.com/kr/app/%EC%97%85%EC%95%A4%EB%B9%84%EB%93%9C%EB%A6%B4/id6473714963
         link_text: AppStore
@@ -90,7 +90,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: RxPageViewController
         additional_links:
           - title: RxPageViewController
@@ -116,7 +116,7 @@ content:
             - 이러한 문제를 해결하기 위해 RxSwift에서 제공하는 DelegateProxy를 활용하여 UIPageViewController의 Delegate와 DataSource의 기능을 RxSwift환경에서도 사용할 수 있도록 도와주는 오픈소스 라이브러리를 개발했습니다.
             - 또한, 페이징 기능과 같이 일반적으로 많이 사용하는 로직을 캡슐화해 제공하여 UIPageViewController를 좀 더 직관적이고 간편하게 사용하는 기능도 제공합니다.
             
-      - layout: top-middle
+      - layout: left
         title: GyroData
         additional_links:
           - title: GyroData
