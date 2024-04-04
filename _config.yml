@@ -82,13 +82,17 @@ content:
             <br><br>
 
             <div data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
-              <span class="glyphicon glyphicon-triangle-right" aria-hidden="true" style="font-size: 14px;"></span> **Retrospect**<br>
+            <p>
+              <span class="glyphicon glyphicon-triangle-right" aria-hidden="true" style="font-size: 14px;"></span> <strong>Retrospect</strong><br>
+            </p>
             </div>
             <div class="collapse" id="collapse-1">
-            - 시작 단계의 앱인 만큼 앱의 기능이 변경되거나 추가, 삭제되는 일이 많았습니다. 때문에 앱의 구조가 한번에 파악이 가능하고, 기능의 추가 및 수정이 용이하도록 MVVM에 클린 아키텍처의 레이어 계층 구조를 적용하여 추상화 레이어 계층을 확실하게 분리해야 한다 판단하였습니다. **비즈니스 모델들을 모듈단위로 추상화 하여 유즈케이스를 만들고, 뷰 모델과 유즈케이스를 구분하여 구성하였습니다.** 결과적으로 앱 전체적으로 구조 파악이 쉽고 가독성이 올랐으며, 객체간 의존도가 낮아져 유지보수의 용이성이 향상되었습니다.
-            - 이미 개발이 완료된 부분이라도 구조적인 측면에서의 리팩토링이 필요하다 판단되면 리팩토링을 진행하였습니다. **기존 아키텍처의 화면전환 로직에 Coordinator패턴을 추가 적용하여 각각의 계층 내에서 각자의 할 일을 명확하게 가져가도록 리팩토링 하였습니다.** 그 결과, 코드의 가독성이 오르고, 데이터의 흐름도 좀 더 유연하게 관리할 수 있도록 개선 되었습니다.
-            - 앱 내부적으로 UIPageViewController를 사용하였는데, RxSwift는 UIPageViewController를 지원하지 않았습니다. 이에 **RxSwift에서 제공하는 DelegateProxy를 활용해 Delegate와 DataSource를 Rx환경에 맞게 사용하도록 리팩토링 하였습니다.** 나아가 해당 기능을 좀 더 일반화하고 모듈화하여 오픈소스 라이브러리로 만들어 배포하였습니다.
-            - UI/UX에 대한 고민을 많이 했습니다. 애플의 H.I.G에 대한 경험이 부족하신 디자이너분과의 협업을 진행하면서 H.I.G와 맞지 않는 부분들을 애플 생태계에 맞게 개선하기 위해 **H.I.G 공식문서를 근거로 디자인에 대한 가이드라인을 전달드렸고, 이를 통해 애플 생태계에 맞는 디자인으로 개선**되고 사용자의 UX를 일관되게 가져가도록 하였습니다.
+            <ul>
+              <li> 시작 단계의 앱인 만큼 앱의 기능이 변경되거나 추가, 삭제되는 일이 많았습니다. 때문에 앱의 구조가 한번에 파악이 가능하고, 기능의 추가 및 수정이 용이하도록 MVVM에 클린 아키텍처의 레이어 계층 구조를 적용하여 추상화 레이어 계층을 확실하게 분리해야 한다 판단하였습니다. **비즈니스 모델들을 모듈단위로 추상화 하여 유즈케이스를 만들고, 뷰 모델과 유즈케이스를 구분하여 구성하였습니다.** 결과적으로 앱 전체적으로 구조 파악이 쉽고 가독성이 올랐으며, 객체간 의존도가 낮아져 유지보수의 용이성이 향상되었습니다.</li>
+              <li> 이미 개발이 완료된 부분이라도 구조적인 측면에서의 리팩토링이 필요하다 판단되면 리팩토링을 진행하였습니다. **기존 아키텍처의 화면전환 로직에 Coordinator패턴을 추가 적용하여 각각의 계층 내에서 각자의 할 일을 명확하게 가져가도록 리팩토링 하였습니다.** 그 결과, 코드의 가독성이 오르고, 데이터의 흐름도 좀 더 유연하게 관리할 수 있도록 개선 되었습니다.</li>
+              <li> 앱 내부적으로 UIPageViewController를 사용하였는데, RxSwift는 UIPageViewController를 지원하지 않았습니다. 이에 **RxSwift에서 제공하는 DelegateProxy를 활용해 Delegate와 DataSource를 Rx환경에 맞게 사용하도록 리팩토링 하였습니다.** 나아가 해당 기능을 좀 더 일반화하고 모듈화하여 오픈소스 라이브러리로 만들어 배포하였습니다.</li>
+              <li> UI/UX에 대한 고민을 많이 했습니다. 애플의 H.I.G에 대한 경험이 부족하신 디자이너분과의 협업을 진행하면서 H.I.G와 맞지 않는 부분들을 애플 생태계에 맞게 개선하기 위해 **H.I.G 공식문서를 근거로 디자인에 대한 가이드라인을 전달드렸고, 이를 통해 애플 생태계에 맞는 디자인으로 개선**되고 사용자의 UX를 일관되게 가져가도록 하였습니다.</li>
+            </ul>
             </div>
 
   - title: Projects # Title for the section
@@ -115,7 +119,9 @@ content:
             <br><br>
 
             <div data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+            <p>
               <span class="glyphicon glyphicon-triangle-right" aria-hidden="true" style="font-size: 14px;"></span> <strong>Retrospect</strong><br>
+            </p>
             </div>
             <div class="collapse" id="collapse-2">
             <ul>
@@ -146,10 +152,14 @@ content:
             <br><br>
 
             <div data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
-              <span class="glyphicon glyphicon-triangle-right" aria-hidden="true" style="font-size: 14px;"></span> **Retrospect**<br>
+            <p>
+              <span class="glyphicon glyphicon-triangle-right" aria-hidden="true" style="font-size: 14px;"></span> <strong>Retrospect</strong><br>
+            </p>
             </div>
             <div class="collapse" id="collapse-3">
-            - 이 프로젝트는 처음 기획단계에서부터 하나의 객체에 역할을 명확하게 하고, 각 객체의 레이어를 적절하게 배치하여 모든 객체들이 깨끗하게(Clean하게) 각자의 할일을 하도록 로직분리와 구조설계를 하고자 하였습니다. 그 결과, 앱 개발 이전에 먼저 [클래스 다이어그램](https://miro.com/app/board/uXjVPsjIXrY=/)을 그리며 앱의 구조를 명확하게 인지할 수 있었고, 빠른 속도로 앱 개발이 진행되었으며, 변화에 유연하게 대처할 수 있게 되었습니다.
+            <ul>
+              <li>이 프로젝트는 처음 기획단계에서부터 하나의 객체에 역할을 명확하게 하고, 각 객체의 레이어를 적절하게 배치하여 모든 객체들이 깨끗하게(Clean하게) 각자의 할일을 하도록 로직분리와 구조설계를 하고자 하였습니다. 그 결과, 앱 개발 이전에 먼저 [클래스 다이어그램](https://miro.com/app/board/uXjVPsjIXrY=/)을 그리며 앱의 구조를 명확하게 인지할 수 있었고, 빠른 속도로 앱 개발이 진행되었으며, 변화에 유연하게 대처할 수 있게 되었습니다.</li>
+            </ul>
             </div>
             
             
