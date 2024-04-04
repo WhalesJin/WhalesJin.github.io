@@ -81,7 +81,7 @@ content:
             <mark>Swift</mark> <mark>UIKit</mark> <mark>AVFoundation</mark> <mark>RxSwift</mark>
             <br><br>
 
-            <div data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+            <div data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1" style="cursor:pointer;">
             <p>
               <span class="glyphicon glyphicon-triangle-right" aria-hidden="true" style="font-size: 14px;"></span> <strong>Retrospect</strong><br>
             </p>
@@ -118,7 +118,7 @@ content:
             <mark>Swift</mark> <mark>RxSwift</mark> <mark>CocoaPods</mark> <mark>SPM</mark>
             <br><br>
 
-            <div data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+            <div data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2" style="cursor:pointer;">
             <p>
               <span class="glyphicon glyphicon-triangle-right" aria-hidden="true" style="font-size: 14px;"></span> <strong>Retrospect</strong><br>
             </p>
@@ -151,7 +151,7 @@ content:
             <mark>Swift</mark> <mark>UIKit</mark> <mark>MVVM</mark>
             <br><br>
 
-            <div data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+            <div data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3" style="cursor:pointer;">
             <p>
               <span class="glyphicon glyphicon-triangle-right" aria-hidden="true" style="font-size: 14px;"></span> <strong>Retrospect</strong><br>
             </p>
