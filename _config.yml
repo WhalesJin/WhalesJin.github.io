@@ -65,9 +65,11 @@ content:
         link: https://apps.apple.com/kr/app/%EC%97%85%EC%95%A4%EB%B9%84%EB%93%9C%EB%A6%B4/id6473714963
         link_text: AppStore
         caption: 2023.05 - 2023.12
-        quote: >
-          짧은 숏폼의 스포츠 스킬 영상을 보고, 가능 불가능 여부를 선택하여 현재 자신의 스포츠 레벨을 체크해보는 교육용 앱
         description: | # this will include new lines to allow paragraphs
+            **Description**<br>
+            짧은 숏폼의 스포츠 스킬 영상을 보고, 가능 불가능 여부를 선택하여 현재 자신의 스포츠 레벨을 체크해보는 교육용 앱
+            <br><br>
+          
             **What i did**<br>
             - 개발 초기의 그라운드 룰 및 앱의 구성, 기술 스택, 등을 제시하여 앱 개발 프로세스를 만들어 냄
             - "Tinder" 스타일의 동영상 카드 컬랙션을 상하좌우 스와이핑을 통해 분류하는 UI 구현
@@ -106,9 +108,11 @@ content:
             url: https://github.com/wonbi92/RxPageViewController
         sub_title: 오픈소스 라이브러리
         caption: 2023.12 - 2024.01
-        quote: >
-          UIPageViewController의 Delegate와 DataSource의 기능을 RxSwift환경에서도 사용할 수 있도록 도와주는 오픈소스 라이브러리
         description: | # this will include new lines to allow paragraphs
+            **Description**<br>
+            UIPageViewController의 Delegate와 DataSource의 기능을 RxSwift환경에서도 사용할 수 있도록 도와주는 오픈소스 라이브러리
+            <br><br>
+            
             **What i did**<br>
             - RxSwift의 DelegateProxy를 활용하여 UIPageViewController의 로직을 Rx의 환경에서 사용 가능하도록 개발
             - 라이브러리 사용자의 개발 편의를 위한 기본 페이징 기능을 캡슐화하여 제공
@@ -140,9 +144,10 @@ content:
             url: https://github.com/wonbi92/ios-wanted-GyroData
         sub_title: 개인 프로젝트
         caption: 2023.01 - 2023.02
-        quote: >
-          6축 데이터(acc 3축 + gyro 3축)를 측정하여 그래프로 그리고 해당 데이터를 저장하고 재생해볼 수 있는 측정 앱
         description: | # this will include new lines to allow paragraphs
+            **Description**<br>
+            6축 데이터(acc 3축 + gyro 3축)를 측정하여 그래프로 그리고 해당 데이터를 저장하고 재생해볼 수 있는 측정 앱
+            <br><br>
             **What i did**<br>
             - 모션의 데이터를 생성하고 전달하는 객체구현
             <br><br>
