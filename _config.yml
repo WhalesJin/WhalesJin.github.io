@@ -54,7 +54,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 2048: Number Sliding
+        title: "2048: Number Sliding"
         link: https://apps.apple.com/kr/app/2048-number-sliding/id6497949242
         link_text: AppStore
         caption: 2023.10 - 2024.04
