@@ -1,22 +1,22 @@
 # Site
-repository: wonbi92/wonbi92.github.io
+repository: WhalesJin/WhalesJin.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: 임원빈
-title: 이유를 먼저 생각하는 iOS 개발자 임원빈입니다.
-email: bin9239@gmail.com
-website: https://github.com/wonbi92
+name: 서혜진
+title: 호기심을 해결하는 iOS 개발자 서혜진입니다.
+email: whales.w.jin@gmail.com
+website: https://github.com/WhalesJin
 
 # Dark Mode (true/false/never)
 darkmode: never
 
 # Social links
 # twitter_username: facespics
-github_username:  wonbi92
+github_username:  WhalesJin
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -46,42 +46,29 @@ github_username:  wonbi92
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-    **스스로 코드 작성에 대해 이유를 찾는 과정을 중요하게 생각합니다.**<br>
-    개발을 공부하고 프로젝트를 진행하는 과정에서 자신에게 그리고 같이 프로젝트를 진행하는 동료에게 가장 많이 커뮤니케이션 했던 내용은 “왜”였습니다. “왜”라는 질문을 통해 코드에 대한 이유를 찾고 더 좋은 방향성으로 코드를 작성하기 위해 노력합니다.
 
-
-    **목표를 달성하는 것이 아니라 뛰어넘는 것을 선호합니다.**<br>
-    앱을 제작하는 과정에서 비즈니스 목표 달성을 우선하고, 지속 가능한 목표 달성을 위해 더 좋은 방법을 탐구하며 리팩토링하는 것을 선호합니다. 프로젝트를 진행하면서 이미 구현되어 있던 앱 아키텍처에 더 좋은 가독성과 변화에 더욱 유연한 구조를 제시하여 앱 구조의 가독성과 유연성을 올린 경험이 있습니다.
-
-    **팀의 성장 지향 문화에 임팩트를 내고 함께 성장하는 삶을 지향합니다.**<br>
-    개발자로서 좋은 성장은 단순히 작동하는 화면을 만드는 것이 아니라 올바르게 이해하는 것에서 시작한다고 믿고 있습니다. 이를 위해 주도적으로 함께 하는 사람들과 지식을 나누고, 어려운 영역에 대해서는 심도 있게 토론하는 스터디를 운영해 함께 공부한 경험이 있습니다.
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 업앤비드릴
-        link: https://apps.apple.com/kr/app/%EC%97%85%EC%95%A4%EB%B9%84%EB%93%9C%EB%A6%B4/id6473714963
+        title: 2048: Number Sliding
+        link: https://apps.apple.com/kr/app/2048-number-sliding/id6497949242
         link_text: AppStore
-        caption: 2023.05 - 2023.12
+        caption: 2023.10 - 2024.04
         description: | # this will include new lines to allow paragraphs
             **Description**<br>
-            짧은 숏폼의 스포츠 스킬 영상을 보고, 가능 불가능 여부를 선택하여 현재 자신의 스포츠 레벨을 체크해보는 교육용 앱
+            
             <br><br>
           
             **What i did**<br>
-            - 개발 초기의 그라운드 룰 및 앱의 구성, 기술 스택, 등을 제시하여 앱 개발 프로세스를 만들어 냄
-            - "Tinder" 스타일의 동영상 카드 컬렉션을 상하좌우 스와이핑을 통해 분류하는 UI 구현
-            - HLS 형식만 지원하던 동영상 플레이어를 유튜브와 같은 외부 리소스 영상도 지원하도록 기능 및 로직 확장
-            - 뷰컨트롤러의 복잡한 화면전환 로직을 Coordinator패턴을 적용하여 화면전환 로직 분리
-            - 기존에 RxSwift환경에서 사용할 수 없던 기능을 RxSwift환경에서도 사용할 수 있도록 로직 구현
-            - 기존 앱의 불편한 UI/UX 디자인을 HIG를 근거로 제시하여 앱의 UI/UX 개선
+            
             <br><br>
             
             **Spec Sheet**<br>
-            <mark>Swift</mark> <mark>UIKit</mark> <mark>AVFoundation</mark> <mark>RxSwift</mark>
+            <mark>Swift</mark> <mark>UIKit</mark>
             <br><br>
 
             <div data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1" style="cursor:pointer;">
@@ -91,10 +78,7 @@ content:
             </div>
             <div class="collapse" id="collapse-1">
             <ul>
-              <li> 시작 단계의 앱인 만큼 앱의 기능이 변경되거나 추가, 삭제되는 일이 많았습니다. 따라서 앱의 구조가 한 번에 파악이 가능하고, 기능의 추가 및 수정이 용이하도록 MVVM에 클린 아키텍처의 레이어 계층 구조를 적용하여 추상화 레이어 계층을 확실하게 분리해야 한다 판단하였습니다. <a href="https://velog.io/@wonbi92/iOS-MVVM%EA%B3%BC-%ED%81%B4%EB%A6%B0-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90" target="_blank"><strong>비즈니스 모델들을 모듈 단위로 추상화하여 유즈케이스를 만들고, 뷰 모델과 유즈케이스를 구분</strong></a><strong>하여 구성하였습니다.</strong> 결과적으로 앱 전체적으로 구조 파악이 쉽고 가독성이 올랐으며, 객체 간 의존도가 낮아져 유지보수의 용이성이 향상되었습니다.</li>
-              <li> 이미 개발이 완료된 부분이라도 구조적인 측면에서의 리팩토링이 필요하다 판단되면 리팩토링을 진행하였습니다. <strong>기존 아키텍처의 화면전환 로직에 Coordinator패턴을 추가 적용하여 각각의 계층 내에서 각자의 할 일을 명확하게 가져가도록 리팩토링하였습니다.</strong> 그 결과, 코드의 가독성이 오르고, 데이터의 흐름도 좀 더 유연하게 관리할 수 있도록 개선되었습니다.</li>
-              <li> 앱 내부적으로 UIPageViewController를 사용하였는데, RxSwift는 UIPageViewController를 지원하지 않았습니다. 이에 <strong>RxSwift에서 제공하는 DelegateProxy를 활용해 Delegate와 DataSource를 Rx환경에 맞게 사용하도록 리팩토링하였습니다.</strong> 나아가 해당 기능을 좀 더 일반화하고 모듈화하여 오픈소스 라이브러리로 만들어 배포하였습니다.</li>
-              <li> UI/UX에 대한 고민을 많이 했습니다. 애플의 H.I.G에 대한 경험이 부족하신 디자이너분과의 협업을 진행하면서 H.I.G와 맞지 않는 부분들을 애플 생태계에 맞게 개선하기 위해 <strong>H.I.G 공식 문서를 근거로 디자인에 대한 가이드라인을 전달해 드렸고, 이를 통해 애플 생태계에 맞는 디자인으로 개선</strong>되고 사용자의 UX를 일관되게 가져가도록 하였습니다.</li>
+              <li> </li>
             </ul>
             </div>
 
@@ -102,25 +86,24 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: RxPageViewController
+        title:
         additional_links:
-          - title: RxPageViewController
+          - title:
             icon: fab fa-github
-            url: https://github.com/wonbi92/RxPageViewController
-        sub_title: 오픈소스 라이브러리
-        caption: 2023.12 - 2024.01
+            url:
+        sub_title:
+        caption:
         description: | # this will include new lines to allow paragraphs
             **Description**<br>
-            UIPageViewController의 Delegate와 DataSource의 기능을 RxSwift환경에서도 사용할 수 있도록 도와주는 오픈소스 라이브러리
+            
             <br><br>
             
             **What i did**<br>
-            - RxSwift의 DelegateProxy를 활용하여 UIPageViewController의 로직을 Rx의 환경에서 사용할 수 있도록 개발
-            - 라이브러리 사용자의 개발 편의를 위한 기본 페이징 기능을 캡슐화하여 제공
+            
             <br><br>
             
             **Spec Sheet**<br>
-            <mark>Swift</mark> <mark>RxSwift</mark> <mark>CocoaPods</mark> <mark>SPM</mark>
+            <mark></mark>
             <br><br>
 
             <div data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2" style="cursor:pointer;">
@@ -130,77 +113,54 @@ content:
             </div>
             <div class="collapse" id="collapse-2">
             <ul>
-              <li> RxSwift는 Swift를 비동기 및 이벤트 기반으로 프로그래밍하게 해주는 라이브러리입니다. 이를 통해 비동기 실행 코드의 가독성을 높여주고 명확한 추론이 가능하도록 도와줍니다. </li>
-              <li> 하지만 Swift에서 제공하는 모든 기능을 Rx환경으로 제공하진 않습니다. Swift의 UIPageViewController도 같은 문제를 가지고 있었습니다. 때문에 UIPageViewController를 사용할 때 비동기 코드의 가독성이 떨어지고 명확한 추론이 어려운 문제가 있습니다. </li>
-              <li> 이러한 문제를 해결하기 위해 RxSwift에서 제공하는 DelegateProxy를 활용하여 UIPageViewController의 Delegate와 DataSource의 기능을 RxSwift환경에서도 사용할 수 있도록 도와주는 오픈소스 라이브러리를 개발했습니다. </li>
-              <li> 또한, 페이징 기능과 같이 일반적으로 많이 사용하는 로직을 캡슐화해 제공하여 UIPageViewController를 좀 더 직관적이고 간편하게 사용하는 기능도 제공합니다. </li>
+              <li>  </li>
             </ul>
             </div>
-            
+                
       - layout: left
-        title: GyroData
+        title:
         additional_links:
-          - title: GyroData
+          - title:
             icon: fab fa-github
-            url: https://github.com/wonbi92/ios-wanted-GyroData
-        sub_title: 개인 프로젝트
-        caption: 2023.01 - 2023.02
+            url:
+        sub_title:
+        caption:
         description: | # this will include new lines to allow paragraphs
             **Description**<br>
-            6축 데이터(acc 3축 + gyro 3축)를 측정하여 그래프로 그리고 해당 데이터를 저장하고 재생해 볼 수 있는 측정 앱
+            
             <br><br>
+            
             **What i did**<br>
-            - 6축 데이터를 생성하고 전달하는 객체구현
+            
             <br><br>
             
             **Spec Sheet**<br>
-            <mark>Swift</mark> <mark>UIKit</mark> <mark>MVVM</mark>
+            <mark></mark>
             <br><br>
 
-            <div data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3" style="cursor:pointer;">
+            <div data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2" style="cursor:pointer;">
             <p>
               <span class="glyphicon glyphicon-triangle-right" aria-hidden="true" style="font-size: 14px;"></span> <strong style="border-bottom: 1px solid black;">Retrospect</strong><br>
             </p>
             </div>
-            <div class="collapse" id="collapse-3">
+            <div class="collapse" id="collapse-2">
             <ul>
-              <li>이 프로젝트는 처음 기획 단계에서부터 하나의 객체에 역할을 명확하게 하고, 각 객체의 레이어를 적절하게 배치하여 모든 객체가 깨끗하게 각자의 할 일을 하도록 로직 분리와 구조설계를 하고자 하였습니다. 그 결과, 앱 개발 이전에 먼저 <a href="https://miro.com/app/board/uXjVPsjIXrY=/" target="_blank">클래스 다이어그램</a>을 그리며 앱의 구조를 명확하게 인지할 수 있었고, 빠른 속도로 앱 개발이 진행되었으며, 변화에 유연하게 대처할 수 있게 되었습니다.</li>
+              <li>  </li>
             </ul>
             </div>
             
             
             
-  - title: Other # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: 야곰 아카데미 서포터즈
-        caption: 2023.03 - 2023.06
-        sub_title: 서포터즈 인턴
-        description: | # this will include new lines to allow paragraphs
-            - iOS를 통한 앱 개발을 배우는 커리어 스타터 캠퍼를 대상으로 코드 리뷰와 멘토링, 스터디 참관을 진행하였습니다.
-            - 이러한 일을 수행하기 위해서는 제가 알고 있는 내용이 정말 확실한 내용인지 한 번 더 검증하는 일이 필요했고, 알고 있는 내용을 상대방에게 정확하고 쉽게 이해하도록 전달해야만 했습니다.
-            - 따라서 저는 이미 알고 있는 내용이라도 한 번 더 공식 문서를 통해 검증한 후 설명하였고, 근거나 이유 역시 공식 문서를 기반으로 제시하였습니다. 또 코드 리뷰를 할 때, “잘못되었다”, ”틀렸다”와 같은 말보다는 그렇게 작성한 이유와 근거를 물어보고 그 근거의 타당성과 현재 상황과 잘 맞아떨어지는지 같이 고민하고, 내 의견을 전달하는 방식으로 리뷰를 진행하였습니다.
-            - 그 결과, 저는 **모든 의견 제시와 질문은 그 배경과 근거가 있어야 상대방에게 설득력 있게 다가온다는 점**을 깨달았습니다. 이러한 깨달음을 통해 **상대방과 커뮤니케이션하거나 질문을 할 때, 내 의견과 질문의 근거와 배경, 이유를 확실하게 준비하고 전달해야 한다는 것**을 배웠습니다.
-
-  - title: Article
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-        문제 해결을 위해 고민했던 아티클입니다.
-        
-        **Study Article**<br>
-        - Frame과 Bounds의 차이를 정확히 이해하고자 ToyApp을 제작해 두 값의 차이점을 직접 비교해 보았습니다.
-            - [frame vs bounds](https://velog.io/@wonbi92/iOS-frame-vs-bounds)
-            - [Bounds의 origin값 변경해 보기](https://velog.io/@wonbi92/iOS-bounds%EC%9D%98-origin)
-            - [ScrollView의 동작 원리 이해하기](https://velog.io/@wonbi92/iOS-ScrollView)
-        - Swift가 어떻게 다형성을 구현하고 성능과 어떤 관계가 있는지 비교해 보았습니다.
-            - [Swift의 다형성과 Protocol](https://velog.io/@wonbi92/Swift%EC%9D%98-%EB%8B%A4%ED%98%95%EC%84%B1%EA%B3%BC-Protocol)
-            - [Swift의 다형성과 성능](https://velog.io/@wonbi92/Swift%EC%9D%98-%EB%8B%A4%ED%98%95%EC%84%B1-%EA%B5%AC%ED%98%84%EA%B3%BC-%EC%84%B1%EB%8A%A5)
+#  - title: Other # Title for the section
+#    layout: list # Type of content section (list/text)
+#    content:
+#      - layout: left
+#        title:
+#        caption:
+#        sub_title:
+#        description: | # this will include new lines to allow paragraphs
             
-        **Trouble Shooting**<br>
-        - [RxSwift에 대응하는 네트워크 세션 만들기](https://velog.io/@wonbi92/iOS-RxSwift%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%B8%EC%85%98-%EB%A7%8C%EB%93%A4%EA%B8%B0)
-        - [Test Double을 이용한 URLSession Unit Test](https://velog.io/@wonbi92/Temp-Title-g9d5xp08)
-        
+    
 
 # Footer
 footer_show_references: false
