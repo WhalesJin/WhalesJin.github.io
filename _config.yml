@@ -98,12 +98,12 @@ content:
             <mark>Swift</mark> <mark>UIKit</mark> <mark>MVC</mark> <mark>URLSession</mark> <mark>Alamofire</mark> <mark>Firebase</mark>
             <br><br>
 
-            <div data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1" style="cursor:pointer;">
+            <div data-toggle="collapse" data-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5" style="cursor:pointer;">
             <p>
               <span class="glyphicon glyphicon-triangle-right" aria-hidden="true" style="font-size: 14px;"></span> <strong style="border-bottom: 1px solid black;">Retrospect</strong><br>
             </p>
             </div>
-            <div class="collapse" id="collapse-1">
+            <div class="collapse" id="collapse-5">
             <ul>
               <li> 이미 완성된 앱의 코드를 익히며 그에 맞춰 코드를 구현하였습니다. 예약 주문 내역을 보여주는 새로운 기능을 구현하면서 <strong>기존에 있는 코드들과의 통일성</strong>을 해치지 않도록 UI와 코드 구현 방식을 익혔고, 탭을 추가하고 코드의 컨벤션을 맞췄습니다. 그렇지만 비효율적인 화면전환 기법 및 조건문의 중복과 불필요한 분기처리는 <strong>유지보다는 개선을 택하여 수정</strong>하였습니다. </li>
               <li> 현재 고객들이 사용하고 있는 앱에 대하여 빠른 오류 해결과 적절한 기능 개선이 필요함을 직접 겪으며 배웠습니다. 특히 결제 내역이나 메뉴 설명을 보여주는 화면은 고객들의 사업과 직결되는 부분이므로 빠르게 오류를 수정하고 배포하였습니다. </li>
@@ -135,12 +135,12 @@ content:
             <mark>Swift</mark> <mark>UIKit</mark> <mark>MVC</mark> <mark>URLSession</mark> <mark>Alamofire</mark> <mark>Firebase</mark>
             <br><br>
 
-            <div data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1" style="cursor:pointer;">
+            <div data-toggle="collapse" data-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6" style="cursor:pointer;">
             <p>
               <span class="glyphicon glyphicon-triangle-right" aria-hidden="true" style="font-size: 14px;"></span> <strong style="border-bottom: 1px solid black;">Retrospect</strong><br>
             </p>
             </div>
-            <div class="collapse" id="collapse-1">
+            <div class="collapse" id="collapse-6">
             <ul>
               <li> Tip&Tax 문화를 반영하기 위하여 기존 프로젝트를 복사 및 수정하여 새로운 프로젝트를 생성하였습니다. 디자인 팀에서 받은 번역본에 맞춰 번역하였으며, 없는 부분은 추가로 직접 찾아 수정하였습니다. Localization을 적용하였으나 직원들의 의견을 반영하여 Localization을 제거하고 기본 언어를 전부 영문으로 바꿨습니다. </li>
               <li> Tip&Tax를 매장에서 직접 설정할 수 있도록 설정 화면을 구현하였고, API를 통해 주문내역을 받아오며 Tip과 Tax 또한 보여줄 수 있도록 화면과 코드를 수정하였습니다.</li>
