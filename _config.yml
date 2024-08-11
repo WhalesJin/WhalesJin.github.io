@@ -54,9 +54,100 @@ about_content: | # this will include new lines to allow paragraphs
     **사람을 좋아하며, 소통과 협업을 좋아합니다.** <br>
     야곰 아카데미 캠프에서의 11개의 팀 프로젝트와 30회 이상의 소모임 활동학습을 통해, 소통과 협업의 중요성을 몸소 체험했습니다. 특히 프로젝트 진행에 있어 편안한 소통이 중요하다고 생각하여, 팀원들에게 먼저 친근하게 다가가 질문을 하고 경청하며 편안한 분위기를 만들려고 노력했습니다. 이러한 노력을 통해 프로젝트가 끝난 후에 동료들로부터 '프로젝트를 편안하고, 즐겁게 진행할 수 있었다’는 긍정적인 피드백을 받을 수 있었습니다. (<a href="https://rollingpaper.site/rolls/984829" target="_blank">피드백1</a>, <a href="https://rollingpaper.site/rolls/1001774" target="_blank">피드백2</a>)
 content:
+  - title: Career # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: "(주)우리요"
+        sub_title: "개발팀 - 수습사원"
+        caption: 2024.06 - 2024.08
+        link: http://wooriyo.com/
+        link_text: 홈페이지
+        description: | # this will include new lines to allow paragraphs
+            **Description**<br>
+            '알파요', '핀플', '핀메뉴'의 자사 서비스를 개발 및 제공하며, 외부 프로젝트 및 R&D사업을 수행하는 IT 기업입니다.
+            <br><br>
+          
+            **What I did**<br>
+            - 유일한 iOS 개발자로, 알파요(점주, 근로자), 핀플(관리자, 근로자), 핀메뉴(관리, 주문), Pinmenu Mgmt 총 7개의 앱을 개발 및 유지 보수하고 있으며, 총 13번의 앱 스토어 심사를 경험하였습니다.
+            - 기존 코드들의 형식을 해치지 않으면서 보다 좋은 코드를 작성하기 위해 낯선 코드를 분석하고, DB를 보는 방법을 배웠으며, API를 통하여 서버와 통신하는 법을 익혔습니다.
+            - 회의를 통하여 기획의 의도에 맞춰 코드를 구현하고, 디자인에 맞춰 UI를 구현하며, 지원팀을 통해 듣게 되는 실사용자의 의견을 수렴해 앱을 유지보수하는 경험을 하고 있습니다.
+            <br><br>
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: "핀메뉴 관리"
+        link: https://apps.apple.com/kr/app/%ED%95%80%EB%A9%94%EB%89%B4-%EA%B4%80%EB%A6%AC/id6447057268
+        link_text: AppStore
+        caption: 2024.06 - 2024.08
+        description: | # this will include new lines to allow paragraphs
+            **Description**<br>
+            오리지널 스마트 메뉴판. 주문앱과 QR코드를 통하여 주문된 내역을 관리할 수 있는 관리앱입니다.<br>
+            QR코드를 포함한 매장설정, 주문앱의 메뉴판 설정 및 주문 내역과 실시간 호출 알림 및 관리가 가능합니다.
+            <br><br>
+          
+            **What I did**<br>
+            - 예약 주문 기능이 추가됨에 따라 주문 정보 화면에 예약 탭을 생성하고, 그에 맞는 주문 정보 셀 생성 및 구현
+            - 사용자의 입장을 고려한 기능 개선 및 UI 수정
+            - 인코딩 및 API 통신 오류 해결
+            <br><br>
+            
+            **Spec Sheet**<br>
+            <mark>Swift</mark> <mark>UIKit</mark> <mark>MVC</mark> <mark>URLSession</mark> <mark>Alamofire</mark> <mark>Firebase</mark>
+            <br><br>
+
+            <div data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1" style="cursor:pointer;">
+            <p>
+              <span class="glyphicon glyphicon-triangle-right" aria-hidden="true" style="font-size: 14px;"></span> <strong style="border-bottom: 1px solid black;">Retrospect</strong><br>
+            </p>
+            </div>
+            <div class="collapse" id="collapse-1">
+            <ul>
+              <li> 이미 완성된 앱의 코드를 익히며 그에 맞춰 코드를 구현하였습니다. 예약 주문 내역을 보여주는 새로운 기능을 구현하면서 <strong>기존에 있는 코드들과의 통일성</strong>을 해치지 않도록 UI와 코드 구현 방식을 익혔고, 탭을 추가하고 코드의 컨벤션을 맞췄습니다. 그렇지만 비효율적인 화면전환 기법 및 조건문의 중복과 불필요한 분기처리는 <strong>유지보다는 개선을 택하여 수정</strong>하였습니다. </li>
+              <li> 현재 고객들이 사용하고 있는 앱에 대하여 빠른 오류 해결과 적절한 기능 개선이 필요함을 직접 겪으며 배웠습니다. 특히 결제 내역이나 메뉴 설명을 보여주는 화면은 고객들의 사업과 직결되는 부분이므로 빠르게 오류를 수정하고 배포하였습니다. </li>
+              <li> 관리앱에서 중요한 알림 기능에서 오류가 나지 않도록 FCM을 이용한 Push 알림 기능을 수정 보완했습니다. 로그아웃-로그인을 거치며 Push Token이 사라지는 오류를 발견하고, 코드 경로를 분석하여 오류를 해결하였습니다. </li>
+            </ul>
+            </div>
+    
+      - layout: left
+        title: "Pinmenu Mgmt"
+        link: https://apps.apple.com/kr/app/pinmenu-mgmt/id6504905064
+        link_text: AppStore
+        caption: 2024.06 - 2024.08
+        description: | # this will include new lines to allow paragraphs
+            **Description**<br>
+            핀메뉴 관리앱을 서양 문화에 맞게 개선한 스마트 오더 관리 앱입니다.<br>
+            QR코드를 포함한 매장설정, 주문앱의 메뉴판 설정 및 주문 내역과 실시간 호출 알림 및 관리가 가능합니다.<br>
+            Tip과 Tax 문화를 반영하여 주문 내역에 함께 제공됩니다.
+            <br><br>
+          
+            **What I did**<br>
+            - 영문으로 언어 변환하여 프로젝트 생성
+            - Tip & Tax 기능 생성 및 구현
+            - 전체 금액 형식 변경(소수점 반영)
+            - PG 관련 기능 미국에 맞게 수정
+            - 다국어 기능 개발 중
+            <br><br>
+            
+            **Spec Sheet**<br>
+            <mark>Swift</mark> <mark>UIKit</mark> <mark>MVC</mark> <mark>URLSession</mark> <mark>Alamofire</mark> <mark>Firebase</mark>
+            <br><br>
+
+            <div data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1" style="cursor:pointer;">
+            <p>
+              <span class="glyphicon glyphicon-triangle-right" aria-hidden="true" style="font-size: 14px;"></span> <strong style="border-bottom: 1px solid black;">Retrospect</strong><br>
+            </p>
+            </div>
+            <div class="collapse" id="collapse-1">
+            <ul>
+              <li> Tip&Tax 문화를 반영하기 위하여 기존 프로젝트를 복사 및 수정하여 새로운 프로젝트를 생성하였습니다. 디자인 팀에서 받은 번역본에 맞춰 번역하였으며, 없는 부분은 추가로 직접 찾아 수정하였습니다. Localization을 적용하였으나 직원들의 의견을 반영하여 Localization을 제거하고 기본 언어를 전부 영문으로 바꿨습니다. </li>
+              <li> Tip&Tax를 매장에서 직접 설정할 수 있도록 설정 화면을 구현하였고, API를 통해 주문내역을 받아오며 Tip과 Tax 또한 보여줄 수 있도록 화면과 코드를 수정하였습니다.</li>
+              <li> 한 매장에서 여러 언어를 쓸 수 있도록 다국어 설정 기능을 현재 개발 중에 있습니다. </li>
+            </ul>
+            </div>
+
       - layout: left
         title: "2048: Number Sliding"
         link: https://apps.apple.com/kr/app/2048-number-sliding/id6497949242
